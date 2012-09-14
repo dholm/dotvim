@@ -9,6 +9,10 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+" Set the colorscheme to solarized dark
+set background=dark
+colorscheme solarized
+
 " Use the below highlight group when displaying bad whitespace.
 highlight BadWhitespace ctermbg=red guibg=red
 
