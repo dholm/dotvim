@@ -14,6 +14,9 @@ set backspace=indent,eol,start
 
 " Set the colorscheme to solarized dark
 set background=dark
+let g:solarized_termcolors=256
+let g:solarized_visibility="high"
+let g:solarized_contrast="high"
 colorscheme solarized
 
 " Use the below highlight group when displaying bad whitespace.
