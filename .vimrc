@@ -9,6 +9,9 @@ set softtabstop=4
 set expandtab
 set autoindent
 
+" Make the backspace key behave normally
+set backspace=indent,eol,start
+
 " Set the colorscheme to solarized dark
 set background=dark
 colorscheme solarized
