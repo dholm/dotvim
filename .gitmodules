@@ -1,33 +1,84 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+	branch = master
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
+	branch = master
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+	branch = master
 [submodule "bundle/conque-term"]
 	path = bundle/conque-term
 	url = git://github.com/rosenfeld/conque-term.git
+	branch = master
 [submodule "bundle/ccase"]
 	path = bundle/ccase
 	url = git://github.com/vim-scripts/ccase.vim.git
+	branch = master
 [submodule "bundle/clang_complete"]
 	path = bundle/clang_complete
 	url = git://github.com/Rip-Rip/clang_complete.git
+	branch = master
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+	branch = master
 [submodule "bundle/ttcn-syntax"]
 	path = bundle/ttcn-syntax
 	url = git://github.com/vim-scripts/ttcn-syntax.git
+	branch = master
 [submodule "bundle/ttcn-indent"]
 	path = bundle/ttcn-indent
 	url = git://github.com/vim-scripts/ttcn-indent.git
+	branch = master
 [submodule "bundle/ttcn-dict"]
 	path = bundle/ttcn-dict
 	url = git://github.com/vim-scripts/ttcn-dict.git
+	branch = master
 [submodule "bundle/ttcn-ftplugin"]
 	path = bundle/ttcn-ftplugin
 	url = git://github.com/vim-scripts/ttcn-ftplugin.git
+	branch = master
+[submodule "bundle/a.vim"]
+	path = bundle/a.vim
+	url = git://github.com/vim-scripts/a.vim.git
+	branch = master
+[submodule "bundle/CCTree"]
+	path = bundle/CCTree
+	url = git://github.com/vim-scripts/CCTree.git
+	branch = master
+[submodule "bundle/Colour-Sampler-Pack"]
+	path = bundle/Colour-Sampler-Pack
+	url = git://github.com/vim-scripts/Colour-Sampler-Pack.git
+	branch = master
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git://github.com/wincent/Command-T.git
+	branch = master
+[submodule "bundle/cscope_maps"]
+	path = bundle/cscope_maps
+	url = git://github.com/chazy/cscope_maps.git
+	branch = master
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+	branch = master
+[submodule "bundle/scratch.vim"]
+	path = bundle/scratch.vim
+	url = git://github.com/vim-scripts/scratch.vim.git
+	branch = master
+[submodule "bundle/searchfold.vim"]
+	path = bundle/searchfold.vim
+	url = git://github.com/vim-scripts/searchfold.vim.git
+	branch = master
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion
+	branch = master
+[submodule "bundle/vim-sparkup"]
+	path = bundle/vim-sparkup
+	url = git://github.com/tristen/vim-sparkup.git
+	branch = master
