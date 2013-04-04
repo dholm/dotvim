@@ -1,14 +1,37 @@
-scriptencoding utf-8
+" Don't emulate vi's limitations
+set nocompatible
 
-call pathogen#infect()
-call pathogen#helptags()
+" Setup Vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Bundles
+Bundle "tpope/vim-fugitive"
+Bundle "rosenfeld/conque-term"
+Bundle "ccase.vim"
+Bundle "Rip-Rip/clang_complete"
+Bundle "ttcn-syntax"
+Bundle "ttcn-indent"
+Bundle "ttcn-dict"
+Bundle "ttcn-ftplugin"
+Bundle "a.vim"
+Bundle "CCTree"
+Bundle "Colour-Sampler-Pack"
+Bundle "wincent/Command-T"
+Bundle "chazy/cscope_maps"
+Bundle "scrooloose/nerdtree"
+Bundle "scratch.vim"
+Bundle "searchfold.vim"
+Bundle "Lokaltog/vim-easymotion"
+Bundle "tristen/vim-sparkup"
+Bundle "derekwyatt/vim-scala"
+
+scriptencoding utf-8
 
 if ((&term =~ "xterm") || (&term =~ "rxvt")) && (&termencoding == "")
     set termencoding=utf-8
 endif
-
-" Don't emulate vi's limitations
-set nocompatible
 
 set encoding=utf-8
 
@@ -69,7 +92,6 @@ syntax sync fromstart
 
 
 " Filetypes
-filetype on
 filetype indent on
 filetype plugin on
 
@@ -142,7 +164,8 @@ if (v:version >= 703)
 endif
 
 
-" Key mappings
+" Tagbar
+Bundle "majutsushi/tagbar"
 nmap <F8> :TagbarToggle<CR>
 
 " Indentation with tab
@@ -157,10 +180,12 @@ vmap K k
 nmap K K<CR>
 
 " Set the colorscheme to solarized dark
+Bundle "altercation/vim-colors-solarized"
 set background=dark
 let g:solarized_termcolors=256
 let g:solarized_visibility="high"
 let g:solarized_contrast="high"
+let g:solarized_termtrans=1
 colorscheme solarized
 
 
