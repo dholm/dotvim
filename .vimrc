@@ -26,6 +26,7 @@ Bundle "searchfold.vim"
 Bundle "Lokaltog/vim-easymotion"
 Bundle "tristen/vim-sparkup"
 Bundle "derekwyatt/vim-scala"
+Bundle "airblade/vim-gitgutter"
 
 scriptencoding utf-8
 
