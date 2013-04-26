@@ -5,8 +5,10 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+Bundle "gmarik/vundle"
 
 " Bundles
+Bundle "L9"
 Bundle "tpope/vim-fugitive"
 Bundle "rosenfeld/conque-term"
 Bundle "ccase.vim"
@@ -27,6 +29,7 @@ Bundle "Lokaltog/vim-easymotion"
 Bundle "tristen/vim-sparkup"
 Bundle "derekwyatt/vim-scala"
 Bundle "airblade/vim-gitgutter"
+Bundle "FuzzyFinder"
 
 scriptencoding utf-8
 
