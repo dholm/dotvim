@@ -30,6 +30,9 @@ Bundle "tristen/vim-sparkup"
 Bundle "derekwyatt/vim-scala"
 Bundle "airblade/vim-gitgutter"
 Bundle "FuzzyFinder"
+Bundle "Lokaltog/powerline", {"rtp": "powerline/bindings/vim/"}
+Bundle "klen/python-mode"
+Bundle "bash-support.vim"
 
 scriptencoding utf-8
 
@@ -125,7 +128,6 @@ endif
 " Status line
 set laststatus=2
 set shortmess=aItT
-set statusline=Editing:\ %r%t%m\ %=Location:\ Line\ %l/%L\ \ Col:\ %v\ (%p%%)
 
 
 " Spell checking
@@ -167,6 +169,27 @@ if (v:version >= 703)
     highlight ColorColumn ctermbg=237 guibg=#363946
 endif
 
+
+" Python mode
+let g:pymode_rope = 1
+let g:pymode_doc = 1
+let g:pymode_doc_key = 'K'
+let g:pymode_lint = 1
+let g:pymode_lint_checker = "pyflakes,pep8"
+" Auto check on save
+let g:pymode_lint_write = 1
+let g:pymode_virtualenv = 1
+let g:pymode_breakpoint = 1
+let g:pymode_breakpoint_key = '<leader>b'
+let g:pymode_syntax = 1
+let g:pymode_syntax_all = 1
+let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+let g:pymode_syntax_space_errors = g:pymode_syntax_all
+let g:pymode_folding = 0
+
+
+" NERDtree
+nmap <F2> :NERDTreeToggle<CR>
 
 " Tagbar
 Bundle "majutsushi/tagbar"
