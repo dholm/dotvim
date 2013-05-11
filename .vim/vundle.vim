@@ -30,6 +30,7 @@ Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "FuzzyFinder"
 Bundle "a.vim"
+Bundle "Twinside/vim-codeoverview"
 
 
 " Cosmetics
