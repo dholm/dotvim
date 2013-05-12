@@ -20,3 +20,8 @@ nmap <silent> <space> <C-f>
 vmap K k
 nmap K K<CR>
 
+
+" Keybindings for Haskell
+au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
+au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
+

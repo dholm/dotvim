@@ -125,6 +125,10 @@ let g:yankring_history_dir = '~/.vim.cache/'
 let g:fuf_dataDir = '~/.vim.cache/fuf/'
 
 
+" Haskell configuration
+let g:necoghc_enable_detailed_browse = 1
+
+
 " Load keybindings
 if filereadable(expand("~/.vim/bindings.vim"))
     source ~/.vim/bindings.vim

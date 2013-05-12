@@ -9,6 +9,7 @@ Bundle "gmarik/vundle"
 
 " Vim improvements
 Bundle "L9"
+Bundle "Shougo/vimproc"
 Bundle "tomtom/tlib_vim.git"
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "kien/ctrlp.vim"
@@ -95,6 +96,16 @@ Bundle "tpope/vim-ragtag"
 
 " Scala
 Bundle "derekwyatt/vim-scala"
+
+
+" Haskell
+Bundle "bitc/vim-hdevtools"
+Bundle "lukerandall/haskellmode-vim"
+Bundle "eagletmt/ghcmod-vim"
+Bundle "ujihisa/neco-ghc"
+Bundle "Twinside/vim-hoogle"
+Bundle "frerich/unicode-haskell"
+Bundle "bitc/lushtags"
 
 
 " Shell scripting
