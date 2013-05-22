@@ -117,3 +117,6 @@ Bundle "CCTree"
 Bundle "chazy/cscope_maps"
 Bundle "Rip-Rip/clang_complete"
 
+
+" Utilities
+Bundle "rkitover/vimpager"
