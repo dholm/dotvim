@@ -15,10 +15,8 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "kien/ctrlp.vim"
 Bundle "rosenfeld/conque-term"
 Bundle "vim-scripts/AnsiEsc.vim.git"
-Bundle "vim-scripts/AutoTag.git"
 Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
-Bundle "xsunsmile/showmarks.git"
 Bundle "vim-scripts/SearchComplete"
 Bundle "YankRing.vim"
 Bundle "sjl/gundo.vim"
@@ -31,7 +29,6 @@ Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "FuzzyFinder"
 Bundle "a.vim"
-Bundle "Twinside/vim-codeoverview"
 
 
 " Cosmetics
@@ -52,18 +49,6 @@ Bundle "Lokaltog/vim-easymotion"
 Bundle "matchit.zip"
 Bundle "henrik/vim-indexed-search"
 Bundle "AndrewRadev/splitjoin.vim"
-
-
-" Text objects
-Bundle "austintaylor/vim-indentobject"
-Bundle "coderifous/textobj-word-column.vim"
-Bundle "kana/vim-textobj-datetime"
-Bundle "kana/vim-textobj-entire"
-Bundle "kana/vim-textobj-function"
-Bundle "kana/vim-textobj-user"
-Bundle "nathanaelkane/vim-indent-guides"
-Bundle "thinca/vim-textobj-function-javascript"
-Bundle "vim-scripts/argtextobj.vim"
 
 
 " Version control systems
@@ -106,10 +91,6 @@ Bundle "ujihisa/neco-ghc"
 Bundle "Twinside/vim-hoogle"
 Bundle "frerich/unicode-haskell"
 Bundle "bitc/lushtags"
-
-
-" Shell scripting
-Bundle "bash-support.vim"
 
 
 " Code browsing and completion
