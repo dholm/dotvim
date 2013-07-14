@@ -117,6 +117,10 @@ if !has("unix")
 endif
 
 
+" Configure airline
+let g:airline_powerline_fonts = 1
+
+
 " Configure yankring
 let g:yankring_history_dir = '~/.vim.cache/'
 

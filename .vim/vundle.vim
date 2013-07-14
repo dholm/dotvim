@@ -33,7 +33,7 @@ Bundle "a.vim"
 
 " Cosmetics
 Bundle "Colour-Sampler-Pack"
-Bundle "Lokaltog/powerline", {"rtp": "powerline/bindings/vim/"}
+Bundle "bling/vim-airline"
 Bundle "chrisbra/color_highlight"
 Bundle "altercation/vim-colors-solarized"
 Bundle "vim-scripts/TagHighlight.git"
