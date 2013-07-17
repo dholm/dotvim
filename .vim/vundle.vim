@@ -40,7 +40,6 @@ Bundle "vim-scripts/TagHighlight.git"
 
 
 " Text editing improvements
-Bundle "Shougo/neocomplcache"
 Bundle "godlygeek/tabular"
 Bundle "nelstrom/vim-visual-star-search"
 Bundle "searchfold.vim"
@@ -96,7 +95,7 @@ Bundle "bitc/lushtags"
 " Code browsing and completion
 Bundle "CCTree"
 Bundle "chazy/cscope_maps"
-Bundle "Rip-Rip/clang_complete"
+Bundle "Valloric/YouCompleteMe"
 
 
 " Utilities
