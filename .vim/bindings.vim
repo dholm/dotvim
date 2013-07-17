@@ -7,6 +7,10 @@ Bundle "majutsushi/tagbar"
 nmap <F8> :TagbarToggle<CR>
 
 
+" Paste mode toggle
+set pastetoggle=<F10>
+
+
 " Indentation with tab
 vmap <silent> <tab> >gv
 vmap <silent> <s-tab> <gv
