@@ -1,3 +1,56 @@
+" No compatibility – necessary for mappings to work.
+set nocompatible
+
+" Status line
+set laststatus=0
+set cmdheight=1
+set nomodifiable " Only in version 6.0
+set readonly
+
+" Do not load all plugins for vimpager.
 set noloadplugins
 
+" Load vundle
+if filereadable(expand("~/.vim/vundle.vim"))
+    source ~/.vim/vundle.vim
+endif
+
+" Set the default encoding to UTF-8
+set encoding=utf-8
+set termencoding=utf-8
+
+" Use Solarized
+set background=dark
+colorscheme solarized
+
+" Turn syntax on
+syntax enable
+
+if has('mouse')
+    " Have the mouse enabled all the time
+    set mouse=a
+    " Make a menu popup on right click
+    set mousemodel=popup
+endif
+
+" Do not attempt to connect to X11
 let vimpager_disable_x11 = 1
+
+" This setting will cause the cursor to very briefly jump to a
+" brace/parenthese/bracket's "match" whenever you type a closing or
+" opening brace/parenthese/bracket.
+set showmatch
+
+" Set a margin of lines when scrolling
+set scrolloff=4
+" Lines to scroll when cursor leaves screen
+set scrolljump=5
+
+" Find as you type
+set incsearch
+" Highlight search terms
+set hlsearch
+" Make searches case-insensitive
+set ignorecase
+" Unless they contain upper-case letters
+set smartcase
