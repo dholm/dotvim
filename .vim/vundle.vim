@@ -97,7 +97,3 @@ Bundle "bitc/lushtags"
 Bundle "CCTree"
 Bundle "chazy/cscope_maps"
 Bundle "Valloric/YouCompleteMe"
-
-
-" Utilities
-Bundle "rkitover/vimpager"
